@@ -57,7 +57,7 @@ const Register = ()=>{
     return (<Card className="w-full max-w-md mx-auto">
         <CardHeader>
             <CardTitle className="space-y-1 text-center">Register Here</CardTitle>
-            <CardDescription className="text-center">Music App Form</CardDescription>
+            <CardDescription className="text-center">Quiz App Form</CardDescription>
         </CardHeader>
         
         <CardContent>
