@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import logo from "@/assets/images/logo.jpg";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -25,7 +26,7 @@ const Home = () => {
         {/* Right Side: Side Banner Image */}
         <div className="hidden md:block">
           <img
-            src="https://play-lh.googleusercontent.com/huqpAfeW-vIrwJu9kXxkymHGt039mkT0q7wo1vD7OZZXyl_T0da82mpPByol07OkMpMh"
+            src={logo}
             alt="Quiz Poster"
             className="h-full w-full object-cover"
           />
