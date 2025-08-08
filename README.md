@@ -36,28 +36,28 @@ The app features an intuitive UI, dynamic quiz handling, and secure backend API 
 
 ---
 
-## 📂 Folder Structure
-quizz-whizzz/
-│
-├── backend/
-│ ├── routes/
-│ ├── controllers/
-│ ├── models/
-│ ├── middlewares/
-│ └── server.js
-│
-├── frontend/
-│ ├── src/
-│ │ ├── modules/
-│ │ │ └── user/
-│ │ │ ├── pages/ (login, register, dashboard)
-│ │ ├── shared/
-│ │ │ ├── components/ (header, footer)
-│ │ │ └── routes/ (AppRoutes.tsx)
-│ │ ├── App.tsx
-│ │ └── main.tsx
-│
-└── README.md
+### **📂 Folder Structure**
+-quizz-whizzz/
+-│
+-├── backend/
+-│ ├── routes/
+-│ ├── controllers/
+-│ ├── models/
+-│ ├── middlewares/
+-│ └── server.js
+-│
+-├── frontend/
+-│ ├── src/
+-│ │ ├── modules/
+-│ │ │ └── user/
+-│ │ │ ├── pages/ (login, register, dashboard)
+-│ │ ├── shared/
+-│ │ │ ├── components/ (header, footer)
+-│ │ │ └── routes/ (AppRoutes.tsx)
+-│ │ ├── App.tsx
+-│ │ └── main.tsx
+-│
+-└── README.md
 
 
 
