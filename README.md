@@ -36,8 +36,7 @@ The app features an intuitive UI, dynamic quiz handling, and secure backend API 
 
 ## 📸 Screenshots
 
-|Home Page| Login Page | Register Page | Dashboard |
-|![Home](frontend/src/assets/images/home.png)| ![Login](frontend/src/assets/images/login.png) |![Register](frontend/src/assets/images/register.png)|  ![Dashboard](frontend/src/assets/images/dashboad.png) |
+|Home Page |![Home](frontend/src/assets/images/home.png)| Login Page | ![Login](frontend/src/assets/images/login.png) | Register Page |![Register](frontend/src/assets/images/register.png)| Dashboard |  ![Dashboard](frontend/src/assets/images/dashboad.png) |
 
 
 
