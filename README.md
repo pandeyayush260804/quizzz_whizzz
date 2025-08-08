@@ -34,7 +34,11 @@ The app features an intuitive UI, dynamic quiz handling, and secure backend API 
 - JWT Authentication
 - bcrypt for password hashing
 
----
+## 📸 Screenshots
+
+| Login Page | Register Page | Dashboard |
+|------------|-----------|
+| ![Login](frontend/src/assets/screenshots/login.png) |![Login](frontend/src/assets/screenshots/register.png)|  ![Dashboard](frontend/src/assets/screenshots/dashboard.png) |
 
 
 
