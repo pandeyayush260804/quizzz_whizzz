@@ -6,13 +6,15 @@ The app features an intuitive UI, dynamic quiz handling, and secure backend API 
 
 ---
 
-🚀 Features
-✅ User Authentication – Register & log in securely with JWT
-✅ Create Quizzes – Add quiz name, questions, options & correct answers ✏️
-✅ Attempt Quizzes – Join quizzes & answer questions interactively 📝
-✅ Real-Time Score Calculation – Get instant results 📊
-✅ Responsive Design – Mobile, tablet & desktop friendly 📱💻
-✅ Modern UI – Built using ShadCN UI & TailwindCSS 🎨
+## 🚀 Features
+
+- **User Authentication** – Register and log in securely.
+- **Create Quizzes** – Add quiz name, questions, options, and correct answers.
+- **Attempt Quizzes** – Join quizzes via a simple click and answer questions interactively.
+- **Real-Time Score Calculation** – Immediate feedback after quiz completion.
+- **Responsive Design** – Works seamlessly on mobile, tablet, and desktop.
+- **Modern UI** – Built using **ShadCN UI** and **TailwindCSS**.
+
 ---
 
 ## 🛠 Tech Stack
