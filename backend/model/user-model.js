@@ -11,7 +11,7 @@ const userSchema = new Schema({
   password: {
     type: SchemaTypes.String,
     required: true,
-    minLength: 8
+    minLength: 6
   },
   name: {
     type: SchemaTypes.String,
