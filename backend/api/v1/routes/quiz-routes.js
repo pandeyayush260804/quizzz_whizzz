@@ -44,12 +44,14 @@
 
 // export default router;
 import express from "express";
-import { createQuiz, getAllQuizzes } from "../../../controllers/quiz-controller.js";
+import { createQuiz, getAllQuizzes, getQuizById } from "../../../controllers/quiz-controller.js";
 
 const router = express.Router();
 
-router.post("/quiz", createQuiz);        // For creating quiz
-router.get("/quiz", getAllQuizzes);      // For fetching all quizzes
+router.post("/quiz", createQuiz);        // Create quiz
+router.get("/quiz", getAllQuizzes);      // Fetch all quizzes
+router.get("/quiz/:id", getQuizById);    // ✅ Fetch quiz by ID
 
 export default router;
+
 

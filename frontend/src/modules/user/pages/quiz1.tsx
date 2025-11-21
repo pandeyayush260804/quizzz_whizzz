@@ -126,7 +126,7 @@ export const Quiz: React.FC = () => {
             onClick={reset}
             className="mx-auto w-64 h-16 bg-indigo-700 text-white text-xl font-semibold rounded-lg hover:bg-indigo-800 transition mb-4"
           >
-            Reset
+            Restart
           </button>
 
           <button

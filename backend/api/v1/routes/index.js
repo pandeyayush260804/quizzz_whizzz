@@ -7,4 +7,3 @@ export const indexRoute = express.Router();
 
 indexRoute.use('/user', userRoutes);
 indexRoute.use("/quiz", quizRoutes); 
-
