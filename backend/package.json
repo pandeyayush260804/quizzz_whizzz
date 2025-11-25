@@ -23,5 +23,11 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.18.0",
     "mongoose": "^8.16.5"
+  },
+
+  "vercel": {
+    "rewrites": [
+      { "source": "/api/(.*)", "destination": "/vercel-api/index.js" }
+    ]
   }
 }
