@@ -165,7 +165,7 @@ const addQuiz = async () => {
   console.log("Final questions array:", quiz);
 
   try {
-    const res = await fetch("http://localhost:7777/api/v1/quiz", {
+    const res = await fetch("https://quizzz-whizzz.vercel.app/api/v1/quiz", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

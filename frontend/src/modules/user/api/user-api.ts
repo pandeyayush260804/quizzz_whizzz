@@ -3,7 +3,7 @@ import type { RegisterSchema } from "../validations/register-validation";
 import type { LoginSchema } from "../validations/login-validation";
 
 // Set the base URL globally for axios
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:7777/api/v1";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://quizzz-whizzz.vercel.app/api/v1";
 axios.defaults.baseURL = API_BASE_URL;
 axios.defaults.headers["Content-Type"] = "application/json";
 

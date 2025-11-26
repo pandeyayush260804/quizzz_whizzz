@@ -12,7 +12,7 @@ const JoinQuiz = () => {
   const [isFinished, setIsFinished] = useState(false);
 
   useEffect(() => {
-    fetch(`http://localhost:7777/api/v1/quiz/${id}`)
+    fetch(`https://quizzz-whizzz.vercel.app/api/v1/quiz/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setQuiz(data);

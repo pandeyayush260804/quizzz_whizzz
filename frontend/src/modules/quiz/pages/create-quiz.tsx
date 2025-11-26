@@ -59,7 +59,7 @@ export default function CreateQuiz() {
   };
 
   try {
-    const response = await axios.post("http://localhost:7777/api/v1/quiz/quiz", quizPayload);
+    const response = await axios.post("https://quizzz-whizzz.vercel.app/api/v1/quiz/quiz", quizPayload);
     console.log("Quiz created:", response.data);
     alert("Quiz created successfully!");
   } catch (error) {

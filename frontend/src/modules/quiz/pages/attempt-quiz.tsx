@@ -99,7 +99,7 @@ const AttemptQuiz = () => {
   const options = [Option1, Option2, Option3, Option4];
 
   useEffect(() => {
-    fetch(`http://localhost:7777/api/v1/quiz/quiz/${id}`)
+    fetch(`https://quizzz-whizzz.vercel.app/api/v1/quiz/quiz/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setQuiz(data);

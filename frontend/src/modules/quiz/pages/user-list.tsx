@@ -23,7 +23,7 @@ const UserList: React.FC = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:7777/api/v1/quiz/quiz")
+    fetch("https://quizzz-whizzz.vercel.app/api/v1/quiz/quiz")
       .then((response) => response.json())
       .then((data) => {
         console.log("Fetched Quizzes:", data);
